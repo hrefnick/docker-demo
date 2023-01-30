@@ -1,0 +1,219 @@
+body {
+    background: darkslategrey !important;
+}
+
+.wrapper {
+    background: #ebebeb;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.color-size {
+    font-size: 20px;
+
+}
+
+.iconsize {
+    width: 20px;
+    line-height: 5px;
+}
+
+.iconbig {
+    width: 30px;
+}
+
+.cardtitle {
+    font-size: 30px;
+}
+
+.cardborder {
+    margin: 10px;
+    background: black;
+    height: 500px;
+    width: 350px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.card-White {
+    background: whitesmoke;
+    margin: 10px;
+    height: 480px;
+    overflow: auto;
+}
+
+.card-Blue {
+    background: dodgerblue;
+    margin: 10px;
+    height: 480px;
+    overflow: auto;
+}
+
+.card-Black {
+    background: #3F3F3F;
+    margin: 10px;
+    height: 480px;
+    overflow: auto;
+}
+
+.card-Red {
+    background: darkred;
+    margin: 10px;
+    height: 480px;
+    overflow: auto;
+}
+
+.card-Green {
+    background: darkgreen;
+    margin: 10px;
+    height: 480px;
+    overflow: auto;
+}
+
+.card-MultiColor {
+    background: darkgoldenrod;
+    margin: 10px;
+    height: 480px;
+    overflow: auto;
+}
+
+.card-Colorless {
+    background: #654321;
+    margin: 10px;
+    height: 480px;
+    overflow: auto;
+}
+
+.cardname {
+    background: lightgray;
+    border: solid black 1px;
+    border-radius: 20px;
+    height: 40px;
+    margin: 5px;
+    font-size: 20px;
+    line-height: 1px;
+}
+
+.nametitle {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.floatright1 {
+    float: right;
+    text-align: right;
+    margin-top: -36px;
+    margin-right: 10px;
+    font-size: 45px;
+}
+
+.floatright1::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.cardimg {
+    height: 200px;
+    text-align: center;
+    background: grey;
+    border: solid 1px black;
+    margin: 0 10px;
+}
+
+.cardtype {
+    background: lightgray;
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 25px;
+    margin: 5px;
+}
+
+.card-type {
+    margin: 0 0 0 5px;
+    padding: 3px 0;
+}
+
+.carddescription {
+    background: #D2B48C;
+    border: solid 3px black;
+    margin: 0 10px;
+    height: 160px;
+    border-radius: 1px;
+}
+
+.carddes {
+    margin: 5px 10px 0 10px;
+}
+
+.setname {
+    margin: -18px 0 0 15px;
+}
+
+.setname1 {
+    margin: 2px 0 0 15px;
+}
+
+.powertoughness {
+    font-size: 25px;
+    font-weight: bold;
+    height: 30px;
+    width: 50px;
+    background: darkgrey;
+    border: solid 2px black;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 255px;
+    margin-top: -15px;
+}
+
+.loyalty {
+    font-size: 30px;
+    background: darkgrey;
+    width: 30px;
+    height: 25px;
+    margin-top: -40px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    padding: 0 5px 8px 5px;
+    border: solid 1px black;
+}
+
+.setname2 {
+    margin-left: 15px;
+}
+
+.back {
+    background: #ebebeb;
+    border: solid 1px black;
+    border-radius: 5px;
+    height: 20px;
+    width: 75px;
+}
+
+.backlink {
+    margin: 0 10px;
+}
+
+footer {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.footerstuff {
+    margin-top: 20px !important;
+    text-align: center;
+}
