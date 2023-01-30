@@ -14,9 +14,9 @@ services:
       - ./db/init:/docker-entrypoint-initdb.d
     environment:
       MYSQL_ROOT_PASSWORD: "supersecret"
-      MYSQL_DATABASE: "world"
-      MYSQL_USER: "example"
-      MYSQL_PASSWORD: "example"
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
 
   web:
     # build specifies the location of a custom Dockerfile
@@ -31,10 +31,20 @@ services:
       - ./conf/php/php.ini:/usr/local/etc/php/conf.d/php.ini
       - ./web/html:/var/www/html
     environment:
-      MYSQL_HOST: "db"
-      MYSQL_DATABASE: "world"
-      MYSQL_USER: "example"
-      MYSQL_PASSWORD: "example"
+      MYSQL_HOST: ${DB_HOST}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_HOST=${DB_HOST}
+      - PMA_USER=${DB_USER}
+      - PMA_PASSWORD=${DB_PASSWORD}
 
 # named volumes:
 #volumes:
