@@ -21,7 +21,8 @@ docker exec -it docker-dock-it-wp-wpcli-1 bash -c "
 wp plugin delete hello akismet ; 
 wp plugin install health-check query-monitor loco-translate blockart-blocks everest-forms --activate ;  
 wp plugin activate mailhog ;
-wp theme activate zakra ;
+wp plugin activate  wow;
+wp theme activate grasin ;
 wp theme delete twentytwenty twentytwentyone ;"
 ```
 
