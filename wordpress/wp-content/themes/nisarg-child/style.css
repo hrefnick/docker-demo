@@ -1,0 +1,114 @@
+/*
+Theme Name: grasin
+Author: Nick
+Description: Child theme of Nisarg, ready to roll.
+Version: 1.4.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: grasin
+Template: nisarg
+Tags: two-columns, right-sidebar, custom-header, flexible-header, custom-background, custom-menu, custom-colors, post-formats, sticky-post, threaded-comments, translation-ready, featured-images, rtl-language-support, theme-options, blog, e-commerce
+
+*/
+body {
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+.site-title {
+    display: none;
+}
+
+.site-footer {
+    padding: 60px 225px;
+}
+
+.taxonomy-description {
+    display: none;
+}
+
+.dark h1 {
+    color: #a86a3a;
+}
+
+.dark .entry-header .entry-title a, div a, .dark .next-post a, .dark .prev-post a, .dark #secondary .widget a{
+    color: #a86a3a;
+}
+
+
+.dark .entry-header:visited, .entry-title a:visited, div a:visited, .next-post a:visited, .prev-post a:visited, #secondary .widget a:visited{
+    color: #b04a00;
+}
+
+.dark .entry-header .entry-title a:hover, div a:hover, .next-post a:hover, .prev-post a:hover, #secondary .widget a:hover{
+    color: #aa0000;
+}
+
+.post-comments {
+    display: none;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    flex: 1;
+}
+
+.featured-image img {
+    margin-top: 75px;
+}
+
+.excerpt-content {
+    margin-top: 30px;
+    margin-left: -90px;
+}
+
+.dark h3 {
+    color: #a86a3a;
+}
+.dark .main-navigation .primary-menu > li > a {
+    color: #a86a3a;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.dark .main-navigation .primary-menu > li > a:hover{
+    color: #aa0000;
+}
+
+.navbar-collapse {
+    padding-top: 20px;
+}
+
+.dark .main-navigation .navbar-brand {
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+.review-info {
+    margin-top: -400px;
+}
+
+.review-content {
+    margin-top: 20px;
+}
+
+.stars-baby {
+    color: gold;
+    font-size: 28px;
+}
+
+.no-stars-baby {
+    font-size: 28px;
+}
+
+.main-entry-page {
+    margin-top: 30px;
+}
+
+.dark .archive-page-title > span {
+    background: none;
+    font-size: 40px;
+    filter: drop-shadow(0 0 0.75rem black);
+}
