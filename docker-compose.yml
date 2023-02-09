@@ -13,7 +13,7 @@ services:
       # MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
       # named volumes:
-      - db-wp-author-site:/var/lib/mysql
+      - db-wp-final:/var/lib/mysql
       # local volumes
       #- ./db/data:/var/lib/mysql
       - ./conf/mysql:/etc/mysql/conf.d
