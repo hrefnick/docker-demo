@@ -41,7 +41,7 @@ function activate_plugin(){
     $reviewPostType->registerReviewPostType();
 
     // you also use chaining
-    BookCategoryTaxonomy::getInstance()->registerBookCategoryTaxonomy();
+    BookCategoryTaxonomy::getInstance()->registerBookGenreTaxonomy();
     ReviewCategoryTaxonomy::getInstance()->registerReviewCategoryTaxonomy();
 
     flush_rewrite_rules();
