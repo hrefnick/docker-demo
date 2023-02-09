@@ -60,7 +60,7 @@ services:
     user: 33:33 # use same user-id as WordPress container
     command: tail -f /dev/null # keep container running
     volumes:
-      - ./db-wp-final:/var/www/html
+      - ./wordpress:/var/www/html
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: ${DB_USER}
