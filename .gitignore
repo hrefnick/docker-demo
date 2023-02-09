@@ -22,5 +22,9 @@
 
 # … except our stuff.
 !/wordpress/wp-content/plugins/mailhog.php
+!/wordpress/wp-content/plugins/wow
+!/wordpress/wp-content/plugins/wpd-books
 !/wordpress/wp-content/themes/zakra
+!/wordpress/wp-content/themes/nisarg
+!/wordpress/wp-content/themes/nisarg-child
 

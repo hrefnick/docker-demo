@@ -69,4 +69,4 @@ services:
 
 # named volumes:
 volumes:
-   db-wp-author-site:
+   db-wp-final:
